@@ -1,0 +1,112 @@
+kernels:
+- kernelID: 0
+  kernelName: kernel1
+  layers:
+  - input_1
+  - zp2d_q_conv2d_batchnorm
+  - q_conv2d_batchnorm
+  - activation
+  - max_pooling2d
+  - clone_max_pooling2d
+  - zp2d_q_conv2d_batchnorm_1
+  - q_conv2d_batchnorm_1
+  - activation_1
+  - zp2d_q_conv2d_batchnorm_2
+  - q_conv2d_batchnorm_2
+  - activation_2
+  - add
+- kernelID: 1
+  kernelName: kernel2
+  layers:
+  - clone_add
+  - zp2d_q_conv2d_batchnorm_3
+  - q_conv2d_batchnorm_3
+  - activation_3
+  - zp2d_q_conv2d_batchnorm_4
+  - q_conv2d_batchnorm_4
+  - activation_4
+  - add_1
+  - clone_add_1
+  - zp2d_q_conv2d_batchnorm_5
+  - q_conv2d_batchnorm_5
+  - activation_5
+  - zp2d_q_conv2d_batchnorm_6
+  - q_conv2d_batchnorm_6
+  - activation_6
+  - q_conv2d_batchnorm_7
+  - activation_7
+  - add_2
+- kernelID: 2
+  kernelName: kernel3
+  layers:
+  - clone_add_2
+  - zp2d_q_conv2d_batchnorm_8
+  - q_conv2d_batchnorm_8
+  - activation_8
+  - zp2d_q_conv2d_batchnorm_9
+  - q_conv2d_batchnorm_9
+  - activation_9
+  - add_3
+- kernelID: 3
+  kernelName: kernel4
+  layers:
+  - clone_add_3
+  - zp2d_q_conv2d_batchnorm_10
+  - q_conv2d_batchnorm_10
+  - activation_10
+  - zp2d_q_conv2d_batchnorm_11
+  - q_conv2d_batchnorm_11
+  - activation_11
+  - q_conv2d_batchnorm_12
+  - activation_12
+  - add_4
+- kernelID: 4
+  kernelName: kernel5
+  layers:
+  - clone_add_4
+  - zp2d_q_conv2d_batchnorm_13
+  - q_conv2d_batchnorm_13
+  - activation_13
+  - zp2d_q_conv2d_batchnorm_14
+  - q_conv2d_batchnorm_14
+  - activation_14
+  - add_5
+- kernelID: 5
+  kernelName: kernel6
+  layers:
+  - clone_add_5
+  - zp2d_q_conv2d_batchnorm_15
+  - q_conv2d_batchnorm_15
+  - activation_15
+- kernelID: 6
+  kernelName: kernel7
+  layers:
+  - zp2d_q_conv2d_batchnorm_16
+  - q_conv2d_batchnorm_16
+  - activation_16
+- kernelID: 7
+  kernelName: kernel8
+  layers:
+  - q_conv2d_batchnorm_17
+  - activation_17
+- kernelID: 8
+  kernelName: kernel9
+  layers:
+  - add_6
+  - clone_add_6
+  - zp2d_q_conv2d_batchnorm_18
+  - q_conv2d_batchnorm_18
+  - activation_18
+- kernelID: 9
+  kernelName: kernel10
+  layers:
+  - zp2d_q_conv2d_batchnorm_19
+  - q_conv2d_batchnorm_19
+  - activation_19
+  - add_7
+- kernelID: 10
+  kernelName: kernel11
+  layers:
+  - global_average_pooling2d
+  - q_dense
+  - activation_20

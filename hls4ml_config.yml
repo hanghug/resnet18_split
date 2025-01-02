@@ -1,0 +1,649 @@
+Backend: Vitis
+ClockPeriod: 10
+HLSConfig:
+  LayerName:
+    activation:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_1:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_10:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_11:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_12:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_13:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_14:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_15:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_16:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_17:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_18:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_19:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_2:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_20:
+      Implementation: stable
+      Precision:
+        exp_table: fixed<18,8,RND,SAT>
+        inv_table: fixed<18,8,RND,SAT>
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 100
+      Skip: false
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_3:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_4:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_5:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_6:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_7:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_8:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    activation_9:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    add:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    add_1:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    add_2:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    add_3:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    add_4:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    add_5:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    add_6:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    add_7:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    global_average_pooling2d:
+      Precision:
+        accum: ap_fixed<8,2>
+        result: ap_fixed<8,2>
+      ReuseFactor: 1
+      Strategy: Resource
+      Trace: false
+    input_1:
+      Precision:
+        result: ap_fixed<8,2>
+      Strategy: Resource
+      Trace: false
+    max_pooling2d:
+      ConvImplementation: LineBuffer
+      Precision:
+        accum: ap_fixed<8,2>
+        result: ap_fixed<8,2>
+      ReuseFactor: 1
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 1
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_1:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 48
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_10:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 192
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_10_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_11:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 768
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_11_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_12:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 128
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_12_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_13:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 768
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_13_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_14:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 768
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_14_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_15:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 768
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_15_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_16:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 2304
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_16_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_17:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 512
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_17_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_18:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 2304
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_18_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_19:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 2304
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_19_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_1_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_2:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 48
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_2_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_3:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 48
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_3_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_4:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 48
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_4_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_5:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 48
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_5_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_6:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 192
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_6_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_7:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 32
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_7_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_8:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 192
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_8_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_9:
+      ConvImplementation: LineBuffer
+      ParallelizationFactor: 1
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 192
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_9_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_conv2d_batchnorm_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+    q_dense:
+      Precision:
+        accum: ap_fixed<8,2>
+        bias: fixed<8,2>
+        result: ap_fixed<8,2>
+        weight: fixed<8,2>
+      ReuseFactor: 128000
+      Strategy: Resource
+      Trace: false
+    q_dense_linear:
+      Precision:
+        result: ap_fixed<8,2>
+        table: fixed<18,8>
+      ReuseFactor: 1
+      Strategy: Resource
+      TableSize: 1024
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    PipelineStyle: dataflow
+    Precision: ap_fixed<8,2>
+    ReuseFactor: 1
+    Strategy: Resource
+    TraceOutput: true
+IOType: io_stream
+InputData: ./model/resnet18/x_test_224.npy
+KerasModel: !keras_model './graduate_paper/resnet18/keras_model.h5'
+OutputDir: ./graduate_paper/resnet18
+OutputPredictions: ./model/resnet18/y_test_224_resnet18.npy
+Part: xcvu19p-fsva3824-1-e
+ProjectName: resnet18
+Stamp: aB9e7AC0
+Version: 1.0.0
